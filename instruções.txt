@@ -168,7 +168,7 @@ git push origin main (ou master) – Envie suas mudanças para o GitHub
 
 Agora, com esse fluxo, você vai conseguir sempre manter seu projeto atualizado no GitHub! Qualquer coisa, só chamar. 💡
 
-
+para copiar as pastas do github para a pasta desejada só usar git clone Endereço_do_repositorio
 
 para criar branch é só dar git branch Nome_da_branch
 
