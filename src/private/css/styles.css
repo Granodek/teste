@@ -1,0 +1,123 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #0e0e0e;
+    color: #ccc;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Títulos no topo */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-top: 5%; /* Dá um espaço entre o topo e o título */
+    font-size: 2rem;
+    color: #f7f7f7;
+    text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Permite que a CTA ocupe o restante do espaço */
+    margin-top: -25%; /* Empurra o botão para cima */
+}
+
+/* CTA BUTTON */
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid #ff00ff;
+    color: #ff00ff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+
+.cta button:hover {
+    background-color: #ff00ff;
+    color: #0e0e0e;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #ff00ff, 0 0 50px #ff00ff;
+}
+
+.logogout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.logogout button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #ff0055;
+    color: #ff0055;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #ff0055;
+}
+
+.logogout button:hover {
+    background-color: #ff0055;
+    color: #0e0e0e;
+    box-shadow: 0 0 20px #ff0055, 0 0 40px #ff0055;
+}
+
+
+/* FOOTER */
+footer {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #888;
+    font-size: 1rem;
+}
+
+/* ANIMATED GLOW EFFECT */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff00ff;
+    }
+    50% {
+        text-shadow: 0 0 25px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff, 0 0 100px #ff00ff;
+    }
+    100% {
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff00ff;
+    }
+}
+
+header h1, .cta button {
+    animation: glow 1.5s ease-in-out infinite;
+}

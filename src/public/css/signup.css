@@ -1,0 +1,204 @@
+/* Reset básico */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+/* Layout geral */
+body {
+	background-color: #f0f2f5;
+	color: #1c1e21;
+}
+
+.header-section {
+	padding: 1rem;
+	background-color: #fff;
+	text-align: right;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-section button {
+	padding: 0.5rem 1rem;
+	background-color: #1877f2;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.header-section button:hover {
+	background-color: #155ed1;
+}
+
+.content-section {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.content-container {
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+	gap: 2rem;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.help-heading h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.connect-people img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.main-heading h1 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.main-heading h3 {
+	color: #606770;
+	margin-bottom: 1rem;
+}
+
+.form-section {
+	background-color: #fff;
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-section input[type="text"],
+.form-section input[type="password"],
+.form-section select {
+	width: 100%;
+	padding: 0.75rem;
+	margin: 0.5rem 0;
+	border: 1px solid #ccd0d5;
+	border-radius: 6px;
+}
+
+.i-spece-one,
+.i-spece-two {
+	display: inline-block;
+	width: 48%;
+}
+
+.i-spece-one {
+	margin-right: 4%;
+}
+
+.select-dob {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0.5rem 0;
+}
+
+.select-dob select {
+	width: 32%;
+}
+
+.dob-qus a {
+	margin-left: 0.5rem;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.gender-section {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0.75rem 0;
+}
+
+.gender-section input[type="radio"] {
+	margin-left: 0.5rem;
+}
+
+.gender-qus a {
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 0.5rem;
+}
+
+.policy-section p {
+	font-size: 0.875rem;
+	color: #606770;
+	margin-top: 1rem;
+}
+
+.policy-section a {
+	color: #1877f2;
+	text-decoration: none;
+}
+
+.policy-section a:hover {
+	text-decoration: underline;
+}
+
+.submit {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.submit input[type="submit"] {
+	background-color: #42b72a;
+	color: white;
+	padding: 0.75rem 2rem;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: background-color 0.2s ease;
+}
+
+.submit input[type="submit"]:hover {
+	background-color: #36a420;
+}
+
+/* Footer */
+.footer-section {
+	background-color: #fff;
+	padding: 2rem 1rem;
+	margin-top: 2rem;
+	font-size: 0.875rem;
+	color: #65676b;
+}
+
+.footer-section ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1rem;
+}
+
+.footer-section li {
+	display: inline;
+}
+
+.footer-section .add-more-icon {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.other-pages-link .line {
+	width: 100%;
+	height: 1px;
+	background-color: #ddd;
+	margin: 1rem 0;
+}
+
+.copywrite {
+	margin-top: 1rem;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <header>
+        <button onclick="troca2()">Home</button>      
+    </header>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form action="/login" method="post">
+            <h2>Login</h2> 
+            <div class="inputBox">
+                <input type="text" name="usuario" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="senha" required>
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a onclick="troca4()">Signup</a>
+            </div>
+            <input type="submit" id="submit" value="Login">
+        </form>
+    </div>
+</body>
+<script src="./js/scriptPrime.js"></script>
+</html>

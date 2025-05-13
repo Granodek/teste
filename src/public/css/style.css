@@ -1,0 +1,58 @@
+header {
+  background-color: darkgray;
+  border-width: 10px;
+  border-style: solid;
+  border-color: gray;
+  
+}
+
+.legal{
+    background-color: black;
+    color: gold;
+}
+   
+.titulo{
+    
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #b2ebf2;
+      
+}
+button {
+    background-color: purple;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: purple;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: gold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #b2ebf2;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: purple;
+  }
+  
