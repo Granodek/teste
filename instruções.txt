@@ -167,3 +167,9 @@ git pull origin main (ou master) – Puxe as últimas alterações do repositór
 git push origin main (ou master) – Envie suas mudanças para o GitHub
 
 Agora, com esse fluxo, você vai conseguir sempre manter seu projeto atualizado no GitHub! Qualquer coisa, só chamar. 💡
+
+
+
+para criar branch é só dar git branch Nome_da_branch
+
+e para trocar git checkout Nome_da_branch
